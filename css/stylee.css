@@ -131,7 +131,11 @@ li {
         background-color: rgba(188, 233, 25, 0.425);
         text-align: left;
         height: 100%;
+        border-style: dashed;
+    border-color: #31312f;
+    border-width: 5px;
     }
+    
     .topnav {
         margin: 10px;
         font-size: 100%;
@@ -143,14 +147,25 @@ li {
         padding: 10px;
         text-align: left;
         display: block;
+        border-style: dashed;
+        border-color: #31312f;
+        border-width: 5px;
     }
+    
     .spisok {
+        border-style: dashed;
+        border-color: #31312f;
+        border-width: 5px;
         background-color: rgba(203, 238, 5, 0.432);
     }
     .tablitca {
         color: rgb(0, 0, 0);
         background-color: rgba(232, 245, 177, 0.452);
         width: 100%;
+        border-style: dashed;
+        border-color: #31312f;
+        border-width: 5px;
+        position: relative;
         
     }
     .form {
@@ -159,8 +174,12 @@ li {
         margin: 10px;
         padding: 10px;
         text-align: left;
-        
+        border-style: dashed;
+        border-color: #31312f;
+        border-width: 5px;
+        position: relative;    
     }
+    
     .formandtable {
         display: flex;
         flex-direction: column;
@@ -170,7 +189,7 @@ li {
         order: 2;
     }
     .form {
-        order: 1
+        order: 1;
     }
     .graficlogo {
         padding: 5 px;
