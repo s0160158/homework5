@@ -151,8 +151,7 @@ li {
         color: rgb(0, 0, 0);
         background-color: rgba(232, 245, 177, 0.452);
         width: 100%;
-        position: absolute;
-        top: 800px;
+        
     }
     .form {
         background-color: rgba(203, 238, 5, 0.432);
@@ -160,9 +159,7 @@ li {
         margin: 10px;
         padding: 10px;
         text-align: left;
-        position: absolute;
-        bottom: 250px;
-
+        
     }
     .formandtable {
         display: flex;
